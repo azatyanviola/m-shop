@@ -193,7 +193,7 @@ footer h2 {
 }
 
 /* 🛍️ Զամբյուղի մոդալ պատուհան */
-.cart-modal {
+/* .cart-modal {
     display: none;
     position: fixed;
     top: 0;
@@ -207,6 +207,23 @@ footer h2 {
     padding: 20px;
     overflow-y: auto;
     transition: all 0.3s ease;
+} */
+
+/* CART SIDEBAR */
+.cart-modal {
+    position: fixed;
+    top: 0;
+    right: -400px; /* Քանի դեռ չեք սեղմել, փակ է */
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background: white;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: var(--transition);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* 🔲 Մութ ֆոն երբ բացվում է զամբյուղը */
