@@ -391,6 +391,7 @@ footer h2 {
 
      .cart-modal.active {
         right: 0; /* Բացվում է */
+         left: auto;
     }
 }
 
