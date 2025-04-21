@@ -384,12 +384,12 @@ footer h2 {
 }
 /* Մոբայլի տարբերակ */ */
 @media (max-width: 768px) {
-    .cart-modal {
+    #cart-modal {
         max-width: 100%; /* Փոքրացնում ենք չափը */
         right: -350px; /* Քանի դեռ չի բացվել, մնում է փակ */
     }
 
-     .cart-modal.active {
+     #cart-modal.active {
         right: 20px; /* Բացվում է */
          left: auto;
          width: 100vw;
@@ -397,7 +397,7 @@ footer h2 {
 }
 
 @media (max-width: 576px) {
-     .cart-modal {
+     #cart-modal {
         max-width: 100%; /* Գործարկում ենք ամբողջ լայնությամբ */
     }
 }
