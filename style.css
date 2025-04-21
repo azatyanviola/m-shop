@@ -360,3 +360,18 @@ footer h2 {
     z-index: 1000;
    
 }
+
+@media (max-width: 768px) {
+    #cart-modal {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    #cart-modal.active {
+        transform: translateX(0);
+    }
+}
